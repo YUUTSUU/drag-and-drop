@@ -1,0 +1,8 @@
+.button-container {
+  display: inline-flex;
+  align-items: center;
+}
+
+.button-container .mdc-circular-progress {
+  margin-right: 8px;
+}

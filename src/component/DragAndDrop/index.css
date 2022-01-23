@@ -1,0 +1,40 @@
+.drag-and-drop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.drag-and-drop.current {
+  box-shadow: 1px 1px 5px rgb(122, 121, 121);
+}
+
+.drag-and-drop-move {
+  cursor: move;
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+}
+
+.drag-and-drop-movenot {
+  width: 35px;
+  height: 35px;
+}
+
+.drag-and-drop-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.drag-and-drop-button span {
+  display: block;
+  background-color: #000;
+  width: 17px;
+  height: 2px;
+}
+
+.drag-and-drop-button span:not(:last-child) {
+  margin-bottom: 3px;
+}
